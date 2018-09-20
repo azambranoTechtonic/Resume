@@ -1,0 +1,75 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+  color: #575757;
+	min-height: 1600px;
+  padding: 10px;
+  max-width: 1000px;
+}
+
+.name {
+  color:  turquoise;
+  max-width: 1000px;
+  border-bottom: solid 2px;
+
+}
+
+h1 {
+  text-align: left;
+  width: 400px;
+  border: solid 1px;
+}
+
+.jobTitle {
+  text-align: right;
+  width: 300px:
+  border: solid 1px orchid;
+}
+
+.subTitle {
+  border: solid 1px;
+  text-align: center;
+  max-width: 1000px;
+
+
+}
+
+.subHeader {
+  width: 1000px;
+  border: solid 1px red;
+  height: 60px;
+  margin: 10px 0px 10px 0px;
+}
+
+.address {
+  text-align: left;
+  width: 450px;
+  float: left;
+  margin-left: 10px;
+}
+
+.mobile {
+  text-align: right;
+  width: 250px;
+  float: right;
+  margin-right: 10px;
+}
+
+.halfBox1 {
+  width: 450px;
+  border: solid 1px;
+  height: 600px;
+  margin: 20px 0px 20px 0px;
+  float: left;
+}
+
+.halfBox2 {
+  width: 450px;
+  border: solid 1px;
+  height: 600px;
+  margin: 20px 0px 20px 0px;
+  float: right;
+}
+
+p {
+  max-width: 1000px;
+}
