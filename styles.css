@@ -6,14 +6,14 @@ body {
   max-width: 1000px;
 }
 
-.name {
+.header {
   color:  turquoise;
   max-width: 1000px;
   border-bottom: solid 2px;
 
 }
 
-h1 {
+.name {
   text-align: left;
   width: 400px;
   border: solid 1px;
@@ -22,7 +22,7 @@ h1 {
 .jobTitle {
   text-align: right;
   width: 300px:
-  border: solid 1px orchid;
+  border: solid 1px;
 }
 
 .subTitle {
