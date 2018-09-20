@@ -4,6 +4,7 @@ body {
 	min-height: 1600px;
   padding: 10px;
   max-width: 1000px;
+  margin: auto;
 }
 
 .header {
@@ -13,17 +14,12 @@ body {
 
 }
 
-.name {
+.name .job {
   text-align: left;
   width: 400px;
   border: solid 1px;
 }
 
-.jobTitle {
-  text-align: right;
-  width: 300px:
-  border: solid 1px;
-}
 
 .subTitle {
   border: solid 1px;
