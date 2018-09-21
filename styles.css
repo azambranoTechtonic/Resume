@@ -30,7 +30,7 @@ body {
 }
 
 .subHeader {
-  width: 1000px;
+  max-width: 1000px;
   border: solid 1px red;
   height: 60px;
   margin: 10px 0px 10px 0px;
@@ -45,7 +45,7 @@ body {
 
 .mobile {
   text-align: right;
-  width: 250px;
+  width: 300px;
   float: right;
   margin-right: 10px;
 }
