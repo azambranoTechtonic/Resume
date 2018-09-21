@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <h1>Git Workflows comparison assignment</h1>
+    <h5>By Lex Zambrano</h5>
+
+    <h2>Centralized Workflow</h2>
+
+    <p>The Centralized Workflow uses a central repository to serve as the entry for all changes to the project. The default development branch is called master and all changes are committed into this branch. This workflow doesn’t require any other branches besides master. The client starts by cloning the central repository and in their own local copies of the project, they edit files and commit changes as they would with SVN; however, these new commits are stored locally completely isolated from the central repository. This lets developers defer synchronizing upstream until they’re at a convenient break point. It is the most simple way to work with Git, you work directly on the master locally and when you finish doing changes you commit to the central repository</p>
+
+    <h2>Gitflow</h2>
+
+    <p>Instead of a single master branch, this workflow uses two branches to record the history of the project. The master branch stores the official release history, and the develop branch serves as an integration branch for features. It's also convenient to tag all commits in the master branch with a version number.</p>
+
+    <p>The overall flow of Gitflow is:</p>
+
+    <ol>
+      <li>A develop branch is created from master</li>
+      <li>A release branch is created from develop</li>
+      <li>Feature branches are created from develop</li>
+      <li>When a feature is complete it is merged into the develop branch</li>
+      <li>When the release branch is done it is merged into develop and master</li>
+      <li>If an issue in master is detected a hotfix branch is created from master</li>
+      <li>Once the hotfix is complete it is merged to both develop and master</li>
+    </ol>
+
+    <h3>While both workflows have their pro's and con's, it is a matter of the team management to decide on which better fits the needs of that particular team but the more complex the projects are and the bigger the team it seems that GitFlow would fit better, while for small to medium teams it would be practical to use Centralzed Workflows.</h3>
+  </body>
+</html>
